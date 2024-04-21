@@ -33,3 +33,4 @@ woj_różnica <- dane %>%
 największa_różnica <- woj_różnica %>%
   filter(różnica == max(różnica, na.rm = TRUE))
 print(największa_różnica)
+#Podkarpackie 89976
